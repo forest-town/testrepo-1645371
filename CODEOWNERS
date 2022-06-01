@@ -1,2 +1,62 @@
-/docs/README.md @forest-town/justice-league
-/.gitattributes @robin-of-loxley
+# This is the CODEOWNERS file for the Security Playbook.
+# More info on CODEOWNERS can be found here: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Should changes to a control be requested, you will need to seek approval from the control's owner, specified below.
+# Where a line is commented, this indicates the control owner hasn't yet made a GitHub account, or the control owner is unknown.
+# For general questions relating to the Security Playbook and how controls are applied, please contact appsec@sage.com
+
+# Culture, Behaviour & Governance Control Owners:
+
+_docs/_playbook/culture-behaviour-governance/Access_to_production.md @amggt911sage
+_docs/_playbook/culture-behaviour-governance/Anonymised_data.md @josealbertocharfole
+#_docs/_playbook/culture-behaviour-governance/BCP_%26_Disaster_Recovery.md @Karl Barbour & Dave Senior?
+_playbook/culture-behaviour-governance/Colleague_background_checks.md @parkysan
+_docs/_playbook/culture-behaviour-governance/Data_retention.md @josealbertocharfole
+#_docs/_playbook/culture-behaviour-governance/Incident_Management.md @Richard Hopper?
+#_docs/_playbook/culture-behaviour-governance/Legal_and_regulatory_compliance.md @Caryll
+_docs/_playbook/culture-behaviour-governance/Secure_coding_standards.md @kelonu
+#_docs/_playbook/culture-behaviour-governance/Secure_file_transfer_solution.md @Eloi?
+#_docs/_playbook/culture-behaviour-governance/Security_champion.md @Mads
+_docs/_playbook/culture-behaviour-governance/Security_design_patterns.md @prashsiv-sg
+_docs/_playbook/culture-behaviour-governance/Security_review_of_design_or_architecture.md @prashsiv-sg
+_docs/_playbook/culture-behaviour-governance/Security_service_level_monitoring_for_suppliers.md @parkysan
+#_docs/_playbook/culture-behaviour-governance/Security_training.md @Mads
+_docs/_playbook/culture-behaviour-governance/Security_user_stories.md @gedskikas @DDAZZA
+
+# Hunting for Weaknesses Control Owners:
+
+_docs/_playbook/hunting-for-weaknesses/Continuous_bug_bounty.md @SamHutchins-Sage @gedskikas
+_docs/_playbook/hunting-for-weaknesses/Dependency_scanning.md @chriscooper-sage
+_docs/_playbook/hunting-for-weaknesses/Dynamic_application_security_testing_(DAST).md @JavanXD
+_docs/_playbook/hunting-for-weaknesses/Penetration_testing.md @davidjohnson-offsec
+_docs/_playbook/hunting-for-weaknesses/Platform_vulnerability_scanning.md @jpeethambaran
+_docs/_playbook/hunting-for-weaknesses/Red_&_Purple_teaming.md @davidjohnson-offsec
+_docs/_playbook/hunting-for-weaknesses/Secrets_scanning.md @patrick-prianon @SamHutchins-Sage
+_docs/_playbook/hunting-for-weaknesses/Static_application_security_testing_(SAST).md @chriscooper-sage
+_docs/_playbook/hunting-for-weaknesses/Vulnerability_reporting_solution.md @luciancorlan
+
+# Securing Products & Critical Apps Control Owners:
+
+_docs/_playbook/securing-products-critical-apps/Application_denial_of_service_protection.md @JavanXD
+_docs/_playbook/securing-products-critical-apps/Automated_certificate_management.md @mayankgosain-sage @DominicParkes
+_docs/_playbook/securing-products-critical-apps/Customer_uploaded_files_scans.md @chriscooper-sage
+_docs/_playbook/securing-products-critical-apps/Data_encrypted_at_rest.md @amggt911sage
+_docs/_playbook/securing-products-critical-apps/Distributed_denial_of_service_protection.md @jpeethambaran
+_docs/_playbook/securing-products-critical-apps/External_connections_secured.md @prashsiv-sg
+_docs/_playbook/securing-products-critical-apps/Guardrails_and_control_assurance_as_code.md @amggt911sage @mayankgosain-sage
+_docs/_playbook/securing-products-critical-apps/Hardening_of_source_control_repository.md @DDAZZA
+_docs/_playbook/securing-products-critical-apps/Hardening_of_virtual_machines_and_container_images.md @mayankgosain-sage
+_docs/_playbook/securing-products-critical-apps/Internal_connections_secured.md @prashsiv-sg
+_docs/_playbook/securing-products-critical-apps/Outbound_traffic_control.md @DominicParkes
+_docs/_playbook/securing-products-critical-apps/Runtime_Application_Self-Protection_(RASP).md @JavanXD
+_docs/_playbook/securing-products-critical-apps/Secrets_management.md @DDAZZA
+_docs/_playbook/securing-products-critical-apps/Secure_caching_of_data.md @JavanXD @mayankgosain-sage
+_docs/_playbook/securing-products-critical-apps/Secure_encryption_protocols.md @DominicParkes
+_docs/_playbook/securing-products-critical-apps/Secure_randomness.md @syedmeer-ahmed-sage
+_docs/_playbook/securing-products-critical-apps/Security_Headers.md @JavanXD
+_docs/_playbook/securing-products-critical-apps/Separation_of_cloud_accounts.md @mayankgosain-sage @amggt911sage
+_docs/_playbook/securing-products-critical-apps/Single_sign-on_and_MFA_for_administrators.md @amggt911sage
+_docs/_playbook/securing-products-critical-apps/Single_sign-on_and_MFA_for_customers.md @chriscooper-sage @prashsiv-sg
+#_docs/_playbook/securing-products-critical-apps/System_integrity_assurance.md @Eloi
+_docs/_playbook/securing-products-critical-apps/Use_of_binary_signatures.md @TKMatima
+_docs/_playbook/securing-products-critical-apps/Web_application_firewall_(WAF).md @jpeethambaran
